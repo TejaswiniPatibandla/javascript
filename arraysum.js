@@ -14,6 +14,6 @@ return sum;
 sumArray([12,4,0.1,6,-8]);
  </script>
 </head>
-<body>
+<body>sum of array
 </body>
 </html>
