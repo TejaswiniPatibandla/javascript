@@ -14,6 +14,6 @@ var result = reverse("tejaswini");
 console.log(result);
 </script>
 </head>
-<body>revese
+<body>revese string
 </body>
 </html>
