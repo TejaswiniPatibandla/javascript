@@ -18,6 +18,6 @@ for( var I in k){ // represents only elements defined
 }
 </script>
 </head>
-<body>array length
+<body>array length example
 </body>
 </html>
