@@ -9,6 +9,6 @@ radius.sort(s_comparator);
 console.log(radius);
     </script>
   </head>
-  <body>sorting
+  <body>sorting of given values
   </body>
   </html>
