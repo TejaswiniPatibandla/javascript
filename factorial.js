@@ -13,6 +13,6 @@
     console.log(fact);
  </script>
 </head>
-<body>
+<body>factorial demo
 </body>
 </html>
