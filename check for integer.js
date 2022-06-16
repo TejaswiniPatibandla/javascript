@@ -21,6 +21,6 @@ is_integer(3.0);
 is_integer(4/2);
  </script>
 </head>
-<body>
+<body>checking for integer
 </body>
 </html>
