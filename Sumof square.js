@@ -1,5 +1,5 @@
 <html>
-<head>
+<head>sum of squares of array elements 
 <script>
 function ar(arr){
 var sum=0;
