@@ -1,0 +1,28 @@
+<html>
+<body>
+
+<p> This shows the tag name</p>
+<p id="demo">welcome</p>
+<p class=" good">
+</p>
+<ul id="myList">
+  <li>books</li>
+  <li>pdf</li>
+</ul>
+<button onclick="myFunction()">Append</button>
+<script>
+
+function myFunction() {
+
+const node = document.createElement("li");
+
+const textnode = document.createTextNode("e- books");
+
+node.appendChild(textnode);
+
+document.getElementById("myList").appendChild(node);
+}
+</script>
+
+</body>
+</html>
