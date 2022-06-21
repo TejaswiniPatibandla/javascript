@@ -1,0 +1,36 @@
+<html>
+
+<head>
+
+<title>SLIDESHOW</title>
+
+<script>
+
+window.onload = function() { var image=document.getElementById("aaa");
+
+var Img_array=["C:\Users\vamsi\Downloads\wildlife.jpeg",  " https://pixabay.com/images/id-3082832/" ];
+
+var index=0; 
+var interval = 3000;
+
+function slide() {
+ image.src=Img_array[index++%Img_array.length];
+}
+
+setInterval(slide, interval);
+}
+
+</script> </head>
+
+<body>
+
+<h1 align="center"> Sunset </h1>
+
+<img style = "display: block; 
+margin-left: auto;
+
+margin-right: auto;
+
+width: 50%;" id="aaa" src= "C:\Users\vamsi\Downloads\wildlife.jpeg" width="500" height="500" name="image" />
+
+</body> </html>
